@@ -51,16 +51,16 @@
 }
 
 .header__subtitle{
-position: absolute;
+  position: absolute;
 
-width: 388px;
-left: 64px;
-bottom: 30px;
+  width: 388px;
+  left: 64px;
+  bottom: 30px;
 
-align-items:center ;
-line-height:25px;
-font-size: 18px;
-z-index: 2;
+  align-items:center ;
+  line-height:25px;
+  font-size: 18px;
+  z-index: 2;
 /*border: 1px solid red;*/
 }
 .header__link{
