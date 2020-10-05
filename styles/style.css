@@ -137,9 +137,7 @@
   font-weight: 700;
 }
 /********************DIGITS*****************/
-.digits{
-  border: 1px solid red;
-}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
