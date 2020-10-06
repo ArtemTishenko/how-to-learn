@@ -153,13 +153,19 @@
   border: 1px solid red;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  margin: 0;
   padding-top: 60px;
+  padding-left: 0;
 
+}
+ul{
+  list-style: none;
 }
 .table__cell{
   width: 250px;
   border: 1px solid red;
+
+
 }
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
