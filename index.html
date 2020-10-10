@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="https://code.s3.yandex.net/web-code/normalize.css">
+  <link rel="stylesheet" href="./styles/normalize.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/style.css">
   <meta name="author" content="Артем Тищенко">
@@ -12,7 +12,7 @@
   <div class="page">
 
     <header class="header">
-      <div class="header__logo logo_place_header"> </div>
+      <div class="logo logo_place_header"> </div>
       <div class="header__title">Научиться учиться</div>
       <div class="header__subtitle"> Какие современные и эффективные подходы к обучению вы
         можете использовать в своей жизни? <a class="header__link" href="#">Узнать→</a>
@@ -21,7 +21,7 @@
       <div class="header__square-pic"></div>
     </header>
 
-    <main class="content">
+     <main class="content">
       <section class="description">
         <div class="two-columns">
           <h4 class="two-columns__brief">
@@ -145,10 +145,35 @@
             </div>
       </section>
     </main>
-
+<!--------------------FOOTER--------------------------------------------------->
     <footer class="footer">
-      <div class="footer__logo"></div>
+      <div class="columns">
+        <div class="column__content_copyright">
+          <div class="logo logo_place_footer"></div>
+          <div class="author"> &COPY; 2020. Тищенко Артем</div>
+        </div>
+
+        <div class="column__content_info">
+            <h4 class="column-heading">О Практикуме</h4>
+            <ul class="column-links">
+              <li><a href="#">Главная</a></li>
+              <li><a href="#">Концепция</a></li>
+              <li><a href="#">Наставники</a></li>
+            </ul>
+        </div>
+        <div class="column__content_social">
+            <h4 class="column-heading">Соцсети</h4>
+            <ul class="column-links">
+              <li><a href="#"><img class="social-icon" src="./images/facebook_color_white.svg" alt="facebook"> Facebook</a></li>
+              <li><a href="#"><img class="social-icon" src="./images/vk_color_white.svg" alt="vk"> ВКонатке</a></li>
+              <li><a href="#"><img class="social-icon" src="./images/instagram_color_white.svg" alt="instagram"> Instagram</a></li>
+            </ul>
+        </div>
+      </div>
+
     </footer>
+<!-------------------------------------END FOOTER------------------------------------->
+
   </div>
 </body>
 </html>
