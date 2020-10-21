@@ -5,5 +5,8 @@
   margin: 0;
   margin-right: 48px;
   overflow: hidden;
+  object-fit: contain;
+  object-position: 50% 50%;
 }
+
 
