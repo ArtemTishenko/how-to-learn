@@ -5,13 +5,13 @@
 @import url(../blocks/rotation/rotation.css);
 
 @import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/__place/logo__place_header.css);
-@import url(../blocks/logo/__place/logo__place_footer.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
 
 @import url(../blocks/section-title/section-title.css);
-@import url(../blocks/section-title/__theme/section-title__theme_dark.css);
+@import url(../blocks/section-title/_theme/section-title_theme_dark.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
-@import url(../blocks/section-subtitle/__theme/section-subtitle_theme_dark.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
@@ -28,11 +28,13 @@
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
 @import url(../blocks/techniques/techniques.css);
-@import url(../blocks/techniques/cards/cards.css);
-@import url(../blocks/techniques/cards/__image/cards__image.css);
-@import url(../blocks/techniques/cards/__item/cards__item.css);
-@import url(../blocks/techniques/cards/__title/cards__title.css);
-@import url(../blocks/techniques/cards/__description/cards__description.css);
+
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__image/cards__image.css);
+@import url(../blocks/cards/__item/cards__item.css);
+@import url(../blocks/cards/__title/cards__title.css);
+@import url(../blocks/cards/__description/cards__description.css);
+
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__iframes/video__iframes.css);
 @import url(../blocks/video/__iframe/video__iframe.css);
@@ -42,7 +44,7 @@
 @import url(../blocks/feynman/feynman.css);
 @import url(../blocks/feynman/__background-image/feynman__background-image.css);
 @import url(../blocks/feynman/__title/feynman__title.css);
-@import url(../blocks/feynman/__subtitle/feynman__subitle.css);
+@import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
 @import url(../blocks/feynman/__link/feynman__link.css);
 
 @import url(../blocks/digits/digits.css);
