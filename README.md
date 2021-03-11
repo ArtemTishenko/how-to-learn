@@ -16,4 +16,4 @@
 2. Использована анимация
 3. Bспользован  __YoutubeAPI__
 
-### Хотелось бы добавить _Формы_
+Ссылка на проект https://artemtishenko.github.io/how-to-learn/
